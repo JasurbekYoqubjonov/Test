@@ -1,0 +1,201 @@
+*{
+    padding: 0;
+    margin: 0;
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+
+}
+body{
+    background-color:rgb(183, 180, 180);
+}
+.contactBack{
+    position: fixed;
+    height: 100vh;
+    width: 100%;
+    z-index: -1111;
+}
+.body{
+    position: absolute;
+    z-index: -1111;
+    top: 0%;
+    height: 100vh;
+    width: 100%;
+    background-size: cover;
+    background-position: top center;
+}
+.navbar{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding-top: 20px;
+}
+.navbar_title{
+    margin-left: 30px;
+    cursor: pointer;
+    font-size: 35px;
+    color: white;
+    padding: 10px;
+}
+.navbar_title2{
+    cursor: pointer;
+    font-size: 35px;
+    color: white;
+    padding: 10px;
+    margin-right: 700px;
+}
+.car{
+    color: coral;
+}
+.navbar ul li{
+    display: inline-block;
+    padding: 10px;
+}
+.navbar ul li a{
+    color: white;
+    text-decoration: none;
+    font-size: 18px;
+}
+.navbar ul li a{
+    padding-right: 10px;
+    padding-left: 8px;
+    padding-bottom: 3px;
+
+}
+.navbar ul li a:hover{
+    border-bottom: 3px solid #fa4659;
+    transition: 0.5s;
+    border-radius: 10px;
+}
+.inline{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+.active{
+    border-bottom: 3px solid #fa4659;
+    border-radius: 10px;
+
+}
+.footer{
+    position: absolute;
+    margin-top: 270px;
+    width: 100%;
+    padding: 15px 0;
+    background-color: gray;
+    color: white;
+    text-align: center;
+    z-index:99;
+    margin-top: 800px;
+}
+.footer_title,.footer_text{
+    font-family: cursive;
+}
+.footer_title{
+    margin-bottom: 7px;
+}
+.footer_text{
+    margin-bottom: 5px;
+}
+.tepaga{
+    position: fixed;
+    bottom: 0;
+    right: 0;
+    width: 50px;
+    height: 60px;
+    z-index: 999999;
+    margin-right: 40px;
+    margin-bottom: 70px;
+    border: 4px solid rgb(87, 18, 151);
+    cursor: pointer;
+    border-radius: 50%;
+    padding: 5px 10px;
+    transform:rotate(-180deg);
+}
+.hidden{
+    display: none;
+}
+.navbar{
+    position: fixed;
+    top: 0;
+    z-index: 999999;
+}
+.flexbox{
+    display: flex;
+    justify-content: space-around;
+}
+.rightbox{
+    position: absolute;
+    z-index: 999;
+    width: 500px;
+    height: 500px;
+    color: white;
+    text-align: center;
+    margin-top: 150px;
+    margin-left: 900px;
+    background-color: coral;
+    padding: 20px 30px;
+    border-radius: 20px;
+}
+.rightbox_btn{
+    border: none;
+    outline: none;
+    border-radius: 5px;
+    background-color: aliceblue;
+    color: black;
+    padding: 12px 17px;
+    cursor: pointer;
+    font-size: 15px;
+    color: gray;
+}
+.rightbox_title{
+    margin-bottom: 10px;
+    font-size: 20px;
+}
+.rightbox_text{
+    margin-bottom: 20px;
+}
+.name_input{
+    outline: none;
+    width: 70%;
+    height: 40px;
+    margin: 20px 0px;
+    border: none;
+    border-radius: 5px;
+    padding-left: 5px;
+}
+.textarea{
+    outline: none;
+    width: 70%;
+    height: 60px;
+    margin: 20px 0px;
+    border: none;
+    border-radius: 5px;
+    padding-left: 5px;
+}
+.contact{
+    margin-top: 250px;
+    margin-right: 900px;
+    color: white;
+    padding: 20px 30px;
+}
+.contact ul li{
+    color: white;
+    list-style-type: none;
+    margin-bottom: 10px;
+    display: flex;
+    align-items: center;
+
+}
+.contact ul li a{
+    color: white;
+    margin-left: 15px;
+    margin-top: 10px;
+}
+.contact ul li a:hover{
+    color: coral;
+    transition: 1s;
+}
+.telegram{
+    width: 40px;
+    height: 40px;
+    padding-top: 10px;
+}
